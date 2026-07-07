@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TON_USERNAME/NOM_REPO/main/banner.png" width="800"/>
-
+<img src="https://raw.githubusercontent.com/philippeanadi383-glitch/honeypot--packet-tracer/main/banner.png" width="800"/>
   #  Honeypot Smart City Security Lab
 
   ![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue?logo=cisco)
