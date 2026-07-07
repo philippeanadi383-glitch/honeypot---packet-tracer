@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/TON_USERNAME/NOM_REPO/main/banner.png" width="800"/>
 
-  # 🍯 Honeypot Smart City Security Lab
+  #  Honeypot Smart City Security Lab
 
   ![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue?logo=cisco)
   ![Security](https://img.shields.io/badge/Cybersecurity-Honeypot-red)
@@ -11,7 +11,7 @@
   ![SmartCity](https://img.shields.io/badge/Smart-City-purple)
 </div>
 
-# 🍯 Honeypot Smart City — Cisco Packet Tracer
+#  Honeypot Smart City — Cisco Packet Tracer
 
 ## Objectif
 Simuler un piège réseau (Honeypot) dans une Smart City pour attirer un attaquant extérieur vers un faux serveur vulnérable, tout en protégeant l'infrastructure réelle de la ville.
@@ -29,7 +29,7 @@ Simuler un piège réseau (Honeypot) dans une Smart City pour attirer un attaqua
 
 ---
 
-## 🎭 Scénario
+##  Scénario
 ```
 [Attaquant] ──Internet simulé── [Routeur_Ville] ──┬── Honeypot_IoT (piège)
                                                    └── Serveur_Central (protégé)
@@ -40,12 +40,12 @@ L'admin détecte l'intrusion et isole l'attaquant.
 
 ---
 
-## 🖧 Topologie
+##  Topologie
 ![Topologie](topologie.png)
 
 ---
 
-## 📊 Table d'adressage
+##  Table d'adressage
 
 | Appareil | Interface | IP | Masque | Gateway |
 |---|---|---|---|---|
@@ -59,7 +59,7 @@ L'admin détecte l'intrusion et isole l'attaquant.
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Routes statiques
 ```bash
@@ -81,7 +81,7 @@ exit
 
 ---
 
-## 🔐 Politique de sécurité
+##  Politique de sécurité
 
 ### Phase 1 — Attaquant redirigé vers le Honeypot
 ```bash
@@ -102,18 +102,18 @@ access-list 150 permit ip any any
 
 ---
 
-## ✅ Tests
+##  Tests
 
 | Test | Résultat |
 |---|---|
-| Attaquant → ping Honeypot | ✅ Accessible |
-| Attaquant → ping Serveur_Central | ❌ Bloqué |
-| Attaquant → telnet 192.168.1.1 | ✅ Entre dans le piège |
-| Admin isole l'attaquant | ✅ Session coupée |
+| Attaquant → ping Honeypot |  Accessible |
+| Attaquant → ping Serveur_Central |  Bloqué |
+| Attaquant → telnet 192.168.1.1 |  Entre dans le piège |
+| Admin isole l'attaquant |  Session coupée |
 
 ---
 
-## 🧠 Concepts démontrés
+##  Concepts démontrés
 - Honeypot — piège réseau pour attirer les attaquants
 - ACL dynamique — modification en temps réel pour isoler une menace
 - Telnet volontairement vulnérable vs SSH sécurisé
