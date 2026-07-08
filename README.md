@@ -32,7 +32,7 @@ Simuler un piège réseau (Honeypot) dans une Smart City pour attirer un attaqua
 ##  Scénario
 ```
 [Attaquant] ──Internet simulé── [Routeur_Ville] ──┬── Honeypot_IoT (piège)
-                                                   └── Serveur_Central (protégé)
+                                                  └── Serveur_Central (protégé)
 ```
 L'attaquant depuis Internet tente de pénétrer le réseau de la ville.
 Il tombe sur le Honeypot — pendant ce temps le vrai serveur reste invisible.
